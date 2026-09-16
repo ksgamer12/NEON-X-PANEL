@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
 )
 
 func GetBinaryName() string {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 func mustUnmarshal(t *testing.T, raw string, v any) {

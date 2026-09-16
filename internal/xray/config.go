@@ -3,7 +3,7 @@ package xray
 import (
 	"bytes"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
 )
 
 // Config represents the complete Xray configuration structure.

@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"

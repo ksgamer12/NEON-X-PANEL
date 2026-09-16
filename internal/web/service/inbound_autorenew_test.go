@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 )
 
 // TestAutoRenewClients_MultiInbound covers the renew loop across more than one

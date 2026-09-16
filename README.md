@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/neon-x-panel/NEON-X-PANEL/releases"><img src="https://img.shields.io/github/v/release/neon-x-panel/NEON-X-PANEL?color=a855f7&label=NEON%20RELEASE" alt="Release"></a>
-  <a href="https://github.com/neon-x-panel/NEON-X-PANEL/actions"><img src="https://img.shields.io/github/actions/workflow/status/neon-x-panel/NEON-X-PANEL/release.yml.svg" alt="Build"></a>
-  <a href="https://github.com/neon-x-panel/NEON-X-PANEL/releases/latest"><img src="https://img.shields.io/github/downloads/neon-x-panel/NEON-X-PANEL/total.svg" alt="Downloads"></a>
+  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/releases"><img src="https://img.shields.io/github/v/release/neon-x-panel-official/NEON-X-PANEL?color=a855f7&label=NEON%20RELEASE" alt="Release"></a>
+  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/actions"><img src="https://img.shields.io/github/actions/workflow/status/neon-x-panel-official/NEON-X-PANEL/release.yml.svg" alt="Build"></a>
+  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/releases/latest"><img src="https://img.shields.io/github/downloads/neon-x-panel-official/NEON-X-PANEL/total.svg" alt="Downloads"></a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/license-GPL%20V3-purple.svg" alt="License"></a>
 </p>
 
@@ -40,7 +40,7 @@
 ## 🚀 One-Line Installation
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel/NEON-X-PANEL/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/main/install.sh)
 ```
 
 ---

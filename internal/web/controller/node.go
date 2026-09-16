@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/middleware"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/middleware"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
 
 	"github.com/gin-gonic/gin"
 )

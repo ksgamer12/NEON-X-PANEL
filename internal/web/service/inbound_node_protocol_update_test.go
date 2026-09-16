@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // A node-managed inbound arrives by adoption, so its protocol can be one the

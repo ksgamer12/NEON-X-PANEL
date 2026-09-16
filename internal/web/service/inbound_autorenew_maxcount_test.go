@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 )
 
 // A prepaid plan must stop itself: once as many renewals have fired as the

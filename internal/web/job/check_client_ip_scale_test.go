@@ -13,10 +13,10 @@ import (
 	"github.com/op/go-logging"
 	"gorm.io/gorm"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	xuilogger "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	xuilogger "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
 )
 
 // setupScaleJobDB mirrors the service package's scale gating: Postgres via

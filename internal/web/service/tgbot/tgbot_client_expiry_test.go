@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/locale"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/locale"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/text/language"

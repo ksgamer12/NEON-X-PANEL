@@ -5,9 +5,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/entity"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/middleware"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/session"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/middleware"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/session"
 
 	"github.com/gin-gonic/gin"
 )

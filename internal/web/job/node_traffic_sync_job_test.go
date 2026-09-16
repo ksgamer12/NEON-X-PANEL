@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 func TestAtomicBool_DefaultIsFalse(t *testing.T) {

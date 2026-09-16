@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
 )
 
 // periodicResetConcurrency bounds how many inbounds or clients one run resets at once:

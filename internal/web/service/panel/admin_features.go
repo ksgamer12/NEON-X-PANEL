@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	core "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	core "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
 
 	"gorm.io/gorm"
 )

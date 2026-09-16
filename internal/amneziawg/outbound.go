@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // OutboundPeer is one remote AmneziaWG server: its public key, the routes

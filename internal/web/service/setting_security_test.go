@@ -8,8 +8,8 @@ import (
 
 	"github.com/xlzd/gotp"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 func TestResetSettingsRegeneratesSubscriptionPaths(t *testing.T) {

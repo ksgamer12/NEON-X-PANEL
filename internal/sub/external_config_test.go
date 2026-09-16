@@ -9,7 +9,7 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 func TestApplyRemarkToLinkRewritesFragment(t *testing.T) {

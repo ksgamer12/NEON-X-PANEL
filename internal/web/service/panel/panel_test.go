@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
 )
 
 func TestIsNewerVersion(t *testing.T) {

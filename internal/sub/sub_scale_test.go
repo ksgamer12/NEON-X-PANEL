@@ -14,11 +14,11 @@ import (
 	"github.com/op/go-logging"
 	"gorm.io/gorm"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	xuilogger "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	xuilogger "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 )
 
 const scaleTargetSubId = "scale-target-sub"

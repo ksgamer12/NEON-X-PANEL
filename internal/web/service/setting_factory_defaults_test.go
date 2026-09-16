@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/reflect_util"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/reflect_util"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
 )
 
 func allSettingJSONTags(t *testing.T) map[string]bool {

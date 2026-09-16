@@ -5,10 +5,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	ldaputil "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/ldap"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	ldaputil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/ldap"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
 )
 
 var DefaultTruthyValues = []string{"true", "1", "yes", "on"}

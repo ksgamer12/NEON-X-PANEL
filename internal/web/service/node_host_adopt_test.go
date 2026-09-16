@@ -3,10 +3,10 @@ package service
 import (
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/entity"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/runtime"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/runtime"
 )
 
 func TestSetRemoteTraffic_AdoptsNodeHostRows(t *testing.T) {

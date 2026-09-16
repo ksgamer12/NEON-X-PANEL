@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
 )
 
 // DefaultBufferSize is the number of events the bus can hold before Publish starts dropping.

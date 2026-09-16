@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
 )
 
 func ParseInboundSettingsClients(settings string) ([]model.Client, error) {

@@ -8,10 +8,10 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/json_util"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/link"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/link"
 )
 
 // externalLinkEntry is one client × external-link row resolved for a request.

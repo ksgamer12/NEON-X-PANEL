@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // Characterization snapshots (Phase 0 of the Hosts feature). These lock the

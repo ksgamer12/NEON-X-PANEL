@@ -1,7 +1,7 @@
 package job
 
 import (
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/eventbus"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/eventbus"
 
 	"github.com/shirou/gopsutil/v4/mem"
 )

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // Clash has no shadowsocks tcp/http header, so the inbound path drops the node

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
 
-	wgutil "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/wireguard"
+	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // clientDeviceTestInstance builds a minimal valid client instance with one

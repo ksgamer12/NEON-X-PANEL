@@ -3,7 +3,7 @@ package controller
 import (
 	"strconv"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service/panel"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/panel"
 
 	"github.com/gin-gonic/gin"
 )

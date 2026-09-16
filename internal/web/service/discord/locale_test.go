@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/eventbus"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/locale"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/eventbus"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/locale"
 )
 
 type fixedTgLang struct{}

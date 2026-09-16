@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray/geodata"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray/geodata"
 )
 
 // GeodataTokenIssue reports a routing token the running core would reject,

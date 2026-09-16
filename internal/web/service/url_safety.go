@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/netsafe"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/netsafe"
 )
 
 // SanitizeHTTPURL validates and normalizes an http(s) URL without resolving

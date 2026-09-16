@@ -3,7 +3,7 @@ package runtime
 import (
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // Only a later call for the same node pruned its pooled client, so a deleted

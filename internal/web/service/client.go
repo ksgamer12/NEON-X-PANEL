@@ -14,8 +14,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 )
 
 type ClientWithAttachments struct {

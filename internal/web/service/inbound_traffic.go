@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/runtime"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/runtime"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

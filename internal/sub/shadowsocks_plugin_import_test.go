@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/link"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/link"
 )
 
 // The panel exports shadowsocks tcp/http obfuscation as the SIP002 plugin, so

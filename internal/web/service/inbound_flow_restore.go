@@ -3,7 +3,7 @@ package service
 import (
 	"encoding/json"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 
 	"gorm.io/gorm"
 )

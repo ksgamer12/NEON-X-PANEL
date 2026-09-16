@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // Concurrent creates on two inbounds hold two different lockInbound mutexes,

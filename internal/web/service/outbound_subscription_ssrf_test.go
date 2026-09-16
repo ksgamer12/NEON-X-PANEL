@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/netsafe"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/netsafe"
 )
 
 func TestSubscriptionFetchClientBlocksPrivateDial(t *testing.T) {

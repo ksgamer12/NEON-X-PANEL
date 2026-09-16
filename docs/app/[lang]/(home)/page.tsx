@@ -15,7 +15,7 @@ export function generateStaticParams() {
 }
 
 const INSTALL_COMMAND =
-  'bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel/NEON-X-PANEL/master/install.sh)';
+  'bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/master/install.sh)';
 
 export default async function HomePage({ params }: PageProps<'/[lang]'>) {
   const { lang } = await params;

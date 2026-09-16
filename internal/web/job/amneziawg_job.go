@@ -3,11 +3,11 @@ package job
 import (
 	"encoding/json"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/amneziawgnet"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/xray"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawgnet"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
 )
 
 // AmneziaWGJob converges embedded AmneziaWG interfaces (inbounds AND the

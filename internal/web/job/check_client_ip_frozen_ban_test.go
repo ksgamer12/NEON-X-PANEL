@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
 )
 
 func banLineCount(t *testing.T, email string) int {

@@ -5,11 +5,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/common"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/crypto"
-	core "github.com/neon-x-panel/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/crypto"
+	core "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
 
 	"gorm.io/gorm"
 )

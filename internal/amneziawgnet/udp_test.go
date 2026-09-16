@@ -12,8 +12,8 @@ import (
 	"gvisor.dev/gvisor/pkg/tcpip"
 	"gvisor.dev/gvisor/pkg/tcpip/header"
 
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // TestNewDeviceUDPHandlerAndReply is the UDP counterpart of
