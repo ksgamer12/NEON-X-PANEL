@@ -1313,6 +1313,31 @@ func seedRBACDefaults() error {
 	})
 }
 
+func seedViewerRole() error {
+	const seederName = "RBACViewerRole"
+
+	return db.Transaction(func(tx *gorm.DB) error {
+		for _, role := range model.DefaultAdminRoles() {
+			if role.Slug != model.AdminRoleSlugViewer {
+				continue
+			}
+			var existing model.AdminRole
+			err := tx.Where("slug = ?", role.Slug).First(&existing).Error
+			if errors.Is(err, gorm.ErrRecordNotFound) {
+				if err := tx.Create(&role).Error; err != nil {
+					return err
+				}
+			} else if err != nil {
+				return err
+			}
+		}
+
+		return tx.Where("seeder_name = ?", seederName).
+			FirstOrCreate(&model.HistoryOfSeeders{SeederName: seederName}).
+			Error
+	})
+}
+
 func runSeeders(isUsersEmpty bool) error {
 	empty, err := isTableEmpty("history_of_seeders")
 	if err != nil {
@@ -1339,6 +1364,17 @@ func runSeeders(isUsersEmpty bool) error {
 	if !slices.Contains(seedersHistory, "RBACRolesAndOwner") {
 		if err := seedRBACDefaults(); err != nil {
 			log.Printf("Error seeding RBAC defaults: %v", err)
+			return err
+		}
+		if err := db.Model(&model.HistoryOfSeeders{}).Pluck("seeder_name", &seedersHistory).Error; err != nil {
+			log.Printf("Error re-fetching seeder history: %v", err)
+			return err
+		}
+	}
+
+	if !slices.Contains(seedersHistory, "RBACViewerRole") {
+		if err := seedViewerRole(); err != nil {
+			log.Printf("Error seeding viewer role: %v", err)
 			return err
 		}
 		if err := db.Model(&model.HistoryOfSeeders{}).Pluck("seeder_name", &seedersHistory).Error; err != nil {

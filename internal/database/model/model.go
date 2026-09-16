@@ -43,6 +43,7 @@ const (
 	AdminRoleSlugOwner         = "owner"
 	AdminRoleSlugAdministrator = "administrator"
 	AdminRoleSlugOperator      = "operator"
+	AdminRoleSlugViewer        = "viewer"
 )
 
 // User represents an administrator account in the panel.
@@ -1562,6 +1563,16 @@ func DefaultAdminRoles() []AdminRole {
 			FeaturesJSON:    mustRoleJSON(operatorFeatures()),
 			AccessJSON:      mustRoleJSON(allowAllGroupsAccess()),
 		},
+		{
+			Name:            "Viewer",
+			Slug:            AdminRoleSlugViewer,
+			BuiltIn:         true,
+			OwnerRole:       false,
+			PermissionsJSON: mustRoleJSON(viewerPermissions()),
+			LimitsJSON:      mustRoleJSON(defaultRoleLimits()),
+			FeaturesJSON:    mustRoleJSON(viewerFeatures()),
+			AccessJSON:      mustRoleJSON(allowAllGroupsAccess()),
+		},
 	}
 }
 
@@ -1770,6 +1781,33 @@ func operatorFeatures() map[string]any {
 		"useNextPlan":                 true,
 		"can_use_reset_strategy":      false,
 		"can_use_next_plan":           true,
+	}
+}
+
+func viewerPermissions() map[string]any {
+	return map[string]any{
+		"users": map[string]any{
+			"read":        true,
+			"read_simple": true,
+		},
+		"inbounds": map[string]any{
+			"read_simple": true,
+		},
+		"groups": map[string]any{
+			"read_simple": true,
+		},
+	}
+}
+
+func viewerFeatures() map[string]any {
+	return map[string]any{
+		"blockLimitedAdmins":          true,
+		"disconnectUsersWhenLimited":  true,
+		"disconnectUsersWhenDisabled": true,
+		"useResetStrategy":            false,
+		"useNextPlan":                 false,
+		"can_use_reset_strategy":      false,
+		"can_use_next_plan":           false,
 	}
 }
 
