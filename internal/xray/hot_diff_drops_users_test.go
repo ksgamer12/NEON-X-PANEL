@@ -3,7 +3,7 @@ package xray
 import (
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/json_util"
 )
 
 func hotConfigWithClients(clients string) *Config {

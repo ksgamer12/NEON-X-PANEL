@@ -8,8 +8,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 var warnSuppressedForwardedOnce sync.Once

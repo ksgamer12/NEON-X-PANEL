@@ -1,6 +1,6 @@
 package service
 
-import "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+import "github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 
 // SetXrayProcessForTest installs p as the running process and returns the restore func,
 // so tests in other packages can observe online state. Never call it in production.

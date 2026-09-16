@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/random"
-	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/random"
+	wgutil "github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 //go:embed default.json

@@ -17,10 +17,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/global"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/global"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 // PanelService provides business logic for panel management operations.
@@ -40,7 +40,7 @@ type PanelUpdateInfo struct {
 }
 
 const (
-	panelUpdaterURL      = "https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/main/update.sh"
+	panelUpdaterURL      = "https://raw.githubusercontent.com/ksgamer12/NEON-X-PANEL/main/update.sh"
 	maxPanelUpdaterBytes = 2 << 20
 	// devReleaseTag is the fixed-tag rolling pre-release the CI force-moves to the
 	// newest main commit; the dev update channel installs from it.
@@ -430,9 +430,9 @@ func fetchLatestPanelVersion() (string, error) {
 // fetchPanelRelease fetches a release from GitHub. An empty tag resolves the
 // latest stable release; a non-empty tag (e.g. dev-latest) resolves that tag.
 func fetchPanelRelease(tag string) (*service.Release, error) {
-	url := "https://api.github.com/repos/neon-x-panel-official/NEON-X-PANEL/releases/latest"
+	url := "https://api.github.com/repos/ksgamer12/NEON-X-PANEL/releases/latest"
 	if tag != "" {
-		url = "https://api.github.com/repos/neon-x-panel-official/NEON-X-PANEL/releases/tags/" + tag
+		url = "https://api.github.com/repos/ksgamer12/NEON-X-PANEL/releases/tags/" + tag
 	}
 	client := (&service.SettingService{}).NewProxiedHTTPClient(10 * time.Second)
 	req, reqErr := http.NewRequestWithContext(context.Background(), http.MethodGet, url, nil)

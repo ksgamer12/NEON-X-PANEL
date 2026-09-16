@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/outbound"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/websocket"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service/outbound"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/websocket"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 
 	"github.com/valyala/fasthttp"
 )

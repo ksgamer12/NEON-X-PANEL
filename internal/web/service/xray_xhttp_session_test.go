@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/json_util"
 )
 
 // xray-core v26.6.22 (#6258) renamed the XHTTP session keys with no fallback.

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // ClientDiagnostic is one configured peer's live state, cross-referenced

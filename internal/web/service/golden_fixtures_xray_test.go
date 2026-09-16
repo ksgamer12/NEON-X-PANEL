@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
 
 	"github.com/xtls/xray-core/infra/conf"
 )

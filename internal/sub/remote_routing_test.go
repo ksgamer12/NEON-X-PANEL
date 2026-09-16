@@ -16,7 +16,7 @@ import (
 	"github.com/gin-gonic/gin"
 	yaml "github.com/goccy/go-yaml"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
 )
 
 func mergeRemoteClashRulesYAML(base map[string]any, raw string) error {

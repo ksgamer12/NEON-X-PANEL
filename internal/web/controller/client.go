@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/websocket"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/websocket"
 
 	"github.com/gin-gonic/gin"
 )

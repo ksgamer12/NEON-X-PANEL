@@ -17,9 +17,9 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
 )
 
 func initHappTestDB(t *testing.T) {

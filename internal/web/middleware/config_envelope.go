@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wirecodec"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wirecodec"
 )
 
 // maxDecodedConfigBytes caps a decompressed request body (defense in depth on

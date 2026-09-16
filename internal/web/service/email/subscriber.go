@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/eventbus"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/locale"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/eventbus"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/locale"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 // Subscriber handles event bus messages and sends email notifications.

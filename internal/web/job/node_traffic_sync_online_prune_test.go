@@ -6,12 +6,12 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	xuilogger "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/runtime"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	xuilogger "github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/runtime"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 // The sync tick is the only place that sees which nodes it no longer fetches, so it

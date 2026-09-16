@@ -7,9 +7,9 @@ package panel
 import (
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/websocket"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/websocket"
 
 	"github.com/google/uuid"
 	ws "github.com/gorilla/websocket"

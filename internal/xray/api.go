@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
-	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/common"
+	wgutil "github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 
 	"github.com/xtls/xray-core/app/proxyman/command"
 	routerService "github.com/xtls/xray-core/app/router/command"

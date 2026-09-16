@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 // bindConflict names two generated inbounds whose listens cannot coexist.

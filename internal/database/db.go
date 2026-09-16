@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/crypto"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/random"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/crypto"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/random"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 
 	"github.com/mattn/go-sqlite3"
 	"gorm.io/driver/postgres"

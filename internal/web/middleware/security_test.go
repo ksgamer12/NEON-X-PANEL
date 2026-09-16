@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/session"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/session"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"

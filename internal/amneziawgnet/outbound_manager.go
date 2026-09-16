@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
 )
 
 // OutboundDesired pairs an instance with inbound-path DeviceOptions; AWG

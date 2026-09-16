@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/tuic"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/tuic"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 func (s *InboundService) DesiredTuicInstances() ([]tuic.Instance, error) {

@@ -9,12 +9,12 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawgnet"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawgnet"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	wgutil "github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // A real X25519 pair, so PublicKeyFromPrivate agrees with the stored value.

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wirecodec"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wirecodec"
 )
 
 // TestRemoteSendsEnvelopeWhenNodeAdvertisesCap: once a node has advertised the

@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	piaprotocol "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/pia"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/integration"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/outbound"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	piaprotocol "github.com/ksgamer12/NEON-X-PANEL/v3/internal/pia"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service/integration"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service/outbound"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 
 	"github.com/gin-gonic/gin"
 )

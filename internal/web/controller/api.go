@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/middleware"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/panel"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service/tgbot"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/session"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/middleware"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service/panel"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service/tgbot"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/session"
 
 	"github.com/gin-gonic/gin"
 )

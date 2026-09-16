@@ -3,9 +3,9 @@ package controller
 import (
 	"strconv"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/middleware"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/middleware"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 
 	"github.com/gin-gonic/gin"
 )

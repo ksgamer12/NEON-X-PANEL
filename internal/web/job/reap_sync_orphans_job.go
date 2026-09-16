@@ -1,8 +1,8 @@
 package job
 
 import (
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 // ReapSyncOrphansJob hard-deletes the clients the node-snapshot sweep only

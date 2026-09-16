@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/mtproto"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/runtime"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/mtproto"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/runtime"
 )
 
 func mtgConfigPath(t *testing.T, inboundId int) string {

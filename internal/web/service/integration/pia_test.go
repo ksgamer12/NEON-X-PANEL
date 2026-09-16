@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/crypto/nodetoken"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	piaprotocol "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/pia"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/crypto/nodetoken"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	piaprotocol "github.com/ksgamer12/NEON-X-PANEL/v3/internal/pia"
 )
 
 type fakePiaAuth struct{ token string }

@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // A representative vlessenc/ML-KEM encryption value as produced by `xray

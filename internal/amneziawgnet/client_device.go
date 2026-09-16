@@ -6,8 +6,8 @@ import (
 
 	"github.com/amnezia-vpn/amneziawg-go/v3/device"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 // buildClientUAPIConfig renders a client-mode UAPI set string: the device

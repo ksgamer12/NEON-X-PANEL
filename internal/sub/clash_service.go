@@ -11,10 +11,10 @@ import (
 	"github.com/goccy/go-json"
 	yaml "github.com/goccy/go-yaml"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/tuic"
-	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/tuic"
+	wgutil "github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 type SubClashService struct {

@@ -8,9 +8,9 @@ import (
 	"github.com/op/go-logging"
 	"gorm.io/gorm"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	xuilogger "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	xuilogger "github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
 )
 
 func durablePostgresDB(t *testing.T) *gorm.DB {

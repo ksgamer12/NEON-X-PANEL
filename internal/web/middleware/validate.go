@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/entity"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/entity"
 )
 
 var validate = validator.New(validator.WithRequiredStructEnabled())

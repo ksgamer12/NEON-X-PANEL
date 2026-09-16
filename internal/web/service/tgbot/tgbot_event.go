@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/eventbus"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/eventbus"
 )
 
 var cachedHostname string

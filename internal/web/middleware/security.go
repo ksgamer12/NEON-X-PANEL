@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/session"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/session"
 
 	"github.com/gin-gonic/gin"
 )

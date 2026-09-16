@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/releases"><img src="https://img.shields.io/github/v/release/neon-x-panel-official/NEON-X-PANEL" alt="Release"></a>
-  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/actions"><img src="https://img.shields.io/github/actions/workflow/status/neon-x-panel-official/NEON-X-PANEL/release.yml.svg" alt="Build"></a>
-  <a href="#"><img src="https://img.shields.io/github/go-mod/go-version/neon-x-panel-official/NEON-X-PANEL.svg" alt="GO Version"></a>
-  <a href="https://github.com/neon-x-panel-official/NEON-X-PANEL/releases/latest"><img src="https://img.shields.io/github/downloads/neon-x-panel-official/NEON-X-PANEL/total.svg" alt="Downloads"></a>
+  <a href="https://github.com/ksgamer12/NEON-X-PANEL/releases"><img src="https://img.shields.io/github/v/release/ksgamer12/NEON-X-PANEL" alt="Release"></a>
+  <a href="https://github.com/ksgamer12/NEON-X-PANEL/actions"><img src="https://img.shields.io/github/actions/workflow/status/ksgamer12/NEON-X-PANEL/release.yml.svg" alt="Build"></a>
+  <a href="#"><img src="https://img.shields.io/github/go-mod/go-version/ksgamer12/NEON-X-PANEL.svg" alt="GO Version"></a>
+  <a href="https://github.com/ksgamer12/NEON-X-PANEL/releases/latest"><img src="https://img.shields.io/github/downloads/ksgamer12/NEON-X-PANEL/total.svg" alt="Downloads"></a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true" alt="License"></a>
-  <a href="https://pkg.go.dev/github.com/neon-x-panel-official/NEON-X-PANEL/v3"><img src="https://pkg.go.dev/badge/github.com/neon-x-panel-official/NEON-X-PANEL/v3.svg" alt="Go Reference"></a>
+  <a href="https://pkg.go.dev/github.com/ksgamer12/NEON-X-PANEL/v3"><img src="https://pkg.go.dev/badge/github.com/ksgamer12/NEON-X-PANEL/v3.svg" alt="Go Reference"></a>
   <a href="https://docs.sanaei.dev"><img src="https://img.shields.io/badge/docs-docs.sanaei.dev-22d3ee" alt="Documentation"></a>
 </p>
 
@@ -74,19 +74,19 @@ Orijinal X-UI projesinin geliştirilmiş bir çatallaması (fork) olarak inşa e
 ## Hızlı Başlangıç
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/ksgamer12/NEON-X-PANEL/master/install.sh)
 ```
 
 Belirli bir sürümü kurmak için, etiketini (ör. `v3.7.0`) ekleyin:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/master/install.sh) v3.7.0
+bash <(curl -Ls https://raw.githubusercontent.com/ksgamer12/NEON-X-PANEL/master/install.sh) v3.7.0
 ```
 
 Sürekli güncellenen **dev** sürümünü (kararlı bir sürüm değil; `main` dalından her commit'te oluşturulan en son ön sürüm) kurmak için `dev-latest` değerini geçirin:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/master/install.sh) dev-latest
+bash <(curl -Ls https://raw.githubusercontent.com/ksgamer12/NEON-X-PANEL/master/install.sh) dev-latest
 ```
 
 Kurulum sırasında rastgele bir kullanıcı adı, şifre ve erişim yolu oluşturulur. Kurulumdan sonra, hizmeti başlatabileceğiniz/durdurabileceğiniz, giriş bilgilerinizi görüntüleyebileceğiniz veya sıfırlayabileceğiniz, SSL sertifikalarını yönetebileceğiniz ve çok daha fazlasını yapabileceğiniz yönetim menüsünü açmak için terminalde `x-ui` komutunu çalıştırın.
@@ -146,7 +146,7 @@ docker compose --profile postgres up -d
 Docker imajı, kullanıcı başına **IP limitlerini** zorunlu kılmak için Fail2ban ile (varsayılan olarak etkindir) paketlenmiştir. Fail2ban, ihlalcileri `iptables` ile engeller ve bunun için `NET_ADMIN` yetkisine ihtiyaç duyar. `docker-compose.yml` bunu zaten `cap_add` üzerinden vermektedir; ancak konteyneri bunun yerine `docker run` ile başlatırsanız bu yetkileri kendiniz eklemelisiniz, aksi takdirde yasaklamalar günlüğe kaydedilir ancak uygulanmaz:
 
 ```bash
-docker run -d --cap-add=NET_ADMIN --cap-add=NET_RAW ... ghcr.io/neon-x-panel-official/NEON-X-PANEL
+docker run -d --cap-add=NET_ADMIN --cap-add=NET_RAW ... ghcr.io/ksgamer12/NEON-X-PANEL
 ```
 
 ## Ortam Değişkenleri (Environment Variables)
@@ -218,14 +218,14 @@ Katkılarınızı her zaman bekliyoruz. Bir sorun (issue) açmadan veya pull req
 
 <a href="https://www.star-history.com/?repos=mhsanaei%2F3x-ui&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=neon-x-panel-official/NEON-X-PANEL&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=neon-x-panel-official/NEON-X-PANEL&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=neon-x-panel-official/NEON-X-PANEL&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ksgamer12/NEON-X-PANEL&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ksgamer12/NEON-X-PANEL&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ksgamer12/NEON-X-PANEL&type=date&legend=top-left" />
  </picture>
 </a>
 
 <p align="center">
- <a href="https://www.star-history.com/neon-x-panel-official/NEON-X-PANEL">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=neon-x-panel-official/NEON-X-PANEL&type=trending" /></picture>
+ <a href="https://www.star-history.com/ksgamer12/NEON-X-PANEL">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=ksgamer12/NEON-X-PANEL&type=trending" /></picture>
  </a>
 </p>

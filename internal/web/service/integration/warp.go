@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 // WarpService provides business logic for Cloudflare WARP integration.

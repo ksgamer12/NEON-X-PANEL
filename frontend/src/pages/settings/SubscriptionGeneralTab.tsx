@@ -338,7 +338,7 @@ export default function SubscriptionGeneralTab({
                   <>
                     {t('pages.settings.subThemeDirDesc')}{' '}
                     <a
-                      href="https://github.com/neon-x-panel-official/NEON-X-PANEL/blob/main/docs/custom-subscription-templates.md"
+                      href="https://github.com/ksgamer12/NEON-X-PANEL/blob/main/docs/custom-subscription-templates.md"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

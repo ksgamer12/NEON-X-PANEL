@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
 )
 
 type ServerConfig struct {

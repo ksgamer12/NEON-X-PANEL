@@ -11,8 +11,8 @@ export interface InstallOptions {
   webBasePath: string;
 }
 
-const REPO_RAW = 'https://raw.githubusercontent.com/neon-x-panel-official/NEON-X-PANEL/master/install.sh';
-const IMAGE = 'ghcr.io/neon-x-panel-official/NEON-X-PANEL:latest';
+const REPO_RAW = 'https://raw.githubusercontent.com/ksgamer12/NEON-X-PANEL/master/install.sh';
+const IMAGE = 'ghcr.io/ksgamer12/NEON-X-PANEL:latest';
 
 function isLatest(version: string): boolean {
   const v = version.trim().toLowerCase();

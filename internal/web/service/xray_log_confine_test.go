@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/json_util"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/json_util"
 )
 
 // A log path must never escape the log folder whatever case the key is written

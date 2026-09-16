@@ -3,7 +3,7 @@ package sub
 import (
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
 )
 
 // Bad observatory settings (malformed JSON, non-URL destination, bad duration)

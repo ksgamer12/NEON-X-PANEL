@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/crypto/nodetoken"
-	piaprotocol "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/pia"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/crypto/nodetoken"
+	piaprotocol "github.com/ksgamer12/NEON-X-PANEL/v3/internal/pia"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 var piaTokenAAD = []byte("settings/pia_token")

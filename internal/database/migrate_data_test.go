@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
 )
 
 func TestSubscriptionExpiryFromClient(t *testing.T) {

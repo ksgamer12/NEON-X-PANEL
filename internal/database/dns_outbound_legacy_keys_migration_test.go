@@ -7,9 +7,9 @@ import (
 
 	corelog "github.com/xtls/xray-core/common/log"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 func TestRewriteDNSOutboundLegacyKeys(t *testing.T) {

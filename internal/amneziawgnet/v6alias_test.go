@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
 )
 
 func peerWithIPs(email string, ips ...string) amneziawg.Peer {

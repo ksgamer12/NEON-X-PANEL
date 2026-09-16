@@ -14,11 +14,11 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/common"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/crypto"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/runtime"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/common"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/crypto"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/runtime"
 )
 
 var masterClientCredentialMu sync.Mutex

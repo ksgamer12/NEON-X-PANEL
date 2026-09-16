@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/netsafe"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/netsafe"
 )
 
 // dnsAllowRuleTag marks the routing rules this file manages. Both

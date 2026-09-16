@@ -7,7 +7,7 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/logger"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/logger"
 )
 
 func TestMain(m *testing.M) {

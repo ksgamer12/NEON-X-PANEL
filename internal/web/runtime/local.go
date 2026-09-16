@@ -8,12 +8,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawgnet"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/database/model"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/mtproto"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/tuic"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawgnet"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/database/model"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/mtproto"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/tuic"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 type LocalDeps struct {

@@ -46,7 +46,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/neon-x-panel-official/NEON-X-PANEL
+        - github.com/ksgamer12/NEON-X-PANEL
   exclusions:
     paths:
       - frontend

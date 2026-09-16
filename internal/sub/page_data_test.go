@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/xray"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/xray"
 )
 
 // A single getSubs entry can hold several links (one per host of an inbound)

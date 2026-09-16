@@ -14,13 +14,13 @@ import (
 	"time"
 	"unicode/utf16"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/locale"
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/web/service"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/locale"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/web/service"
 )
 
 const (
 	defaultDiscordBaseURL = "https://discord.com/api/v10"
-	discordUserAgent      = "DiscordBot (https://github.com/neon-x-panel-official/NEON-X-PANEL, 3.x)"
+	discordUserAgent      = "DiscordBot (https://github.com/ksgamer12/NEON-X-PANEL, 3.x)"
 
 	ColorGreen  = 0x2ECC71
 	ColorRed    = 0xE74C3C

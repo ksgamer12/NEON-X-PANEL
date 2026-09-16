@@ -1,4 +1,4 @@
-module github.com/neon-x-panel-official/NEON-X-PANEL/v3
+module github.com/ksgamer12/NEON-X-PANEL/v3
 
 go 1.27.1
 

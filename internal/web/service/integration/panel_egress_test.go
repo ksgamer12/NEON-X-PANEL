@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/netproxy"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/netproxy"
 )
 
 func recordingProxy(t *testing.T, hits *int64) *httptest.Server {

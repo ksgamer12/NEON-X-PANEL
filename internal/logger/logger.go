@@ -13,7 +13,7 @@ import (
 
 	"github.com/op/go-logging"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/config"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/config"
 
 	"gopkg.in/natefinch/lumberjack.v2"
 )

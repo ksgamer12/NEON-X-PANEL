@@ -3,7 +3,7 @@ package amneziawgnet
 import (
 	"net/netip"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
 )
 
 // PeerIndex resolves a decapsulated connection's tunnel-internal source

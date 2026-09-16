@@ -19,8 +19,8 @@ import (
 
 	"github.com/amnezia-vpn/amneziawg-go/v3/device"
 
-	"github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/amneziawg"
-	wgutil "github.com/neon-x-panel-official/NEON-X-PANEL/v3/internal/util/wireguard"
+	"github.com/ksgamer12/NEON-X-PANEL/v3/internal/amneziawg"
+	wgutil "github.com/ksgamer12/NEON-X-PANEL/v3/internal/util/wireguard"
 )
 
 func verboseLoggerForTest(prefix string) *device.Logger {
