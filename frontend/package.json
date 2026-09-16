@@ -95,7 +95,7 @@
     "embla-carousel-react": "^8.6.0",
     "es-toolkit": "^1.49.0",
     "qs": "^6.15.3",
-    "react-ace": "^14.0.1",
+    "react-ace": "^15.0.0",
     "react-day-picker": "^9.7.0",
     "react-github-btn": "^1.4.0",
     "react-is": "^19.2.7",
